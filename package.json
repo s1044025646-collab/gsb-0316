@@ -1,0 +1,22 @@
+{
+  "name": "cheney-gc-sim",
+  "version": "1.0.0",
+  "description": "教学用 Cheney 半空间复制式垃圾回收模拟器（API + CLI）",
+  "main": "dist/heap.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "node src/server.ts",
+    "cli": "node src/cli.ts",
+    "demo": "node src/demo.ts",
+    "test": "node --test test/gc.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
